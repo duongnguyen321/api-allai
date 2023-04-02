@@ -14,6 +14,11 @@
       "id": 3,
       "user": "Dương là ai?",
       "bot": "[Dương](https://duong.vercel.app) là một devoloper trẻ tuổi đến từ Việt Nam, anh ấy sinh năm 2004. Nếu bạn muốn biết thêm thông tin, anh ấy có một trang github là [duongnguyen321](https://github.com/duongnguyen321) và Facebook của anh ấy là:[Dương Nguyễn](https://fb.com/duongnguyen321) !"
+    },
+    {
+      "id": 4,
+      "user": "Có thể cho tôi thêm nhiều thông tin về Dương không?",
+      "bot": "[Dương](https://duong.vercel.app) là một devoloper trẻ tuổi đến từ Việt Nam, anh ấy sinh năm 2004. Anh ấy đang sinh sống tại Hà Nội, Quê quán: Lào Cai, Facebook anh ấy là [Dương Nguyễn](https://fb.com/duongnguyen321) và Github của anh ấy là: [duongnguyen321](https://github.com/duongnguyen321)! Nếu bạn muốn liên hệ với anh ấy, hãy thử nhắn tin qua Facebook hoặc Email của anh ấy là: [duongcoilc2004@gmail.com](mailto:duongcoilc2004@gmail.com)!"
     }
   ]
 }
