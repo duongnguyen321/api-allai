@@ -1,0 +1,14 @@
+{
+  "name": "apiallai",
+  "version": "1.0.0",
+  "description": "Deploy API to vercel",
+  "main": "api/server.js",
+  "scripts": {
+    "start": "node api/server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "firebase": "^9.19.1",
+    "json-server": "^0.17.0"
+  }
+}
