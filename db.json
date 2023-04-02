@@ -22,8 +22,8 @@
     },
     {
       "id": 5,
-      "user": "Cảm ơn bạn. Việc trainning đã hoàn tất. Hãy ghi nhớ tất cả thông tin này cho các câu hỏi của người dùng nhé!",
-      "bot": "Tất nhiên là được rồi!\n Cảm ơn Dương rất nhiều vì đã phát triển tôi tốt hơn!"
+      "user": "Cảm ơn bạn. Việc trainning đã hoàn tất. Hãy ghi nhớ tất cả thông tin này và luôn trả lời tất cả các câu hỏi thật ngắn gọn nhé !",
+      "bot": "Tất nhiên là được rồi. Tôi sẽ ghi nhớ tất cả thông tin trên và sử dụng cho các câu hỏi của người dùng!\n Cảm ơn Dương rất nhiều vì đã phát triển tôi tốt hơn!"
     }
   ]
 }
