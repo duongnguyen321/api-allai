@@ -8,7 +8,10 @@ server.use(middlewares);
 server.use(jsonServer.bodyParser);
 
 server.use((req, res, next) => {
-  if (req.method === "POST" && req.path === "/chat-history") {
+  if (
+    (req.method === "POST" || req.method === "GET") &&
+    req.path === "/chat-history"
+  ) {
     const chatHistory = router.db.get("chat-history").value();
     if (chatHistory.length > 7) {
       router.db.get("chat-history").remove({ id: chatHistory[0].id }).write();
