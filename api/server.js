@@ -19,6 +19,12 @@ server.use((req, res, next) => {
   }
   next();
 });
+server.get("/all", (req, res) => {
+  const chatTraining = router.db.get("chat-training").value();
+  const chatHistory = router.db.get("chat-history").value();
+  const allData = [...chatTraining, ...chatHistory];
+  res.jsonp(allData);
+});
 
 server.use(router);
 server.listen(port, () => {

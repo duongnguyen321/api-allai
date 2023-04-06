@@ -2,9 +2,9 @@
   "name": "apiallai",
   "version": "1.0.0",
   "description": "Deploy API to vercel",
-  "main": "api/server.js",
+  "main": "api/server.min.js",
   "scripts": {
-    "start": "node api/server.js"
+    "start": "node api/server.min.js"
   },
   "dependencies": {
     "fs": "^0.0.1-security",
