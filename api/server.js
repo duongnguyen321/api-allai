@@ -13,7 +13,7 @@ server.use((req, res, next) => {
     req.path === "/chat-history"
   ) {
     const chatHistory = router.db.get("chat-history").value();
-    if (chatHistory.length > 7) {
+    if (chatHistory.length > 5) {
       router.db.get("chat-history").remove({ id: chatHistory[0].id }).write();
     }
   }
